@@ -23,11 +23,11 @@ public class Main {
                     System.out.print("|");
                 } else  {
                     if (playerXCoordinaate == x && playerYCoordinaate == y) {
-                        System.out.printf("X");
-                    } else if (dragonXCoordinaate == x && orcYCoordinaate) {
-
-                    } else if () {
-
+                        System.out.print("X");
+                    } else if (dragonXCoordinaate == x && dragonYCoordinaate == y) {
+                        System.out.print("D");
+                    } else if (orcXCoordinaate == x && orcYCoordinaate == y) {
+                        System.out.print("D");
                     } else  {
                         System.out.print(" ");
                     }
