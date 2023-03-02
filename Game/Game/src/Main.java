@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class Main {
 
     // fori
@@ -12,6 +15,9 @@ public class Main {
 //        byte pisikeNumber = 100;
 //        short lyhikeNumber = 312;
 //        long pikkNumber = 31312321312L;
+
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
 
 
         int worldWidth = 10;
@@ -28,13 +34,34 @@ public class Main {
         char orcSymbol = 'O';
 
 
+        if(input.equals ("w")) {
+            playerYCoordinaate = playerYCoordinaate -1 ;
+        } else if(input.equals ("s")) {
+            playerYCoordinaate = playerYCoordinaate +1 ;
+        } if(input.equals ("a")) {
+            playerXCoordinaate = playerXCoordinaate -1 ;
+        }if(input.equals ("d")) {
+            playerXCoordinaate = playerXCoordinaate +1 ;
+        }
+
+        while(input.equals("end"))
+
+        printMap(worldWidth, worldHeight, playerXCoordinaate, playerYCoordinaate, playerSymbol, dragonXCoordinaate, dragonYCoordinaate, dragonSymbol, orcXCoordinaate, orcYCoordinaate, orcSymbol);
+        System.out.println();
+        input = scanner.nextLine();
+
+
+        printMap(worldWidth, worldHeight, playerXCoordinaate, playerYCoordinaate, playerSymbol, dragonXCoordinaate, dragonYCoordinaate, dragonSymbol, orcXCoordinaate, orcYCoordinaate, orcSymbol);
+    }
+
+    private static void printMap(int worldWidth, int worldHeight, int playerXCoordinaate, int playerYCoordinaate, char playerSymbol, int dragonXCoordinaate, int dragonYCoordinaate, char dragonSymbol, int orcXCoordinaate, int orcYCoordinaate, char orcSymbol) {
         // algväärtus   kuni   iga tsükkel
         for (int y = 0; y < worldHeight; y++) {
             System.out.println();
             for (int x = 0; x < worldWidth; x++) {
-                if (y == 0 || y == worldHeight-1) {
+                if (y == 0 || y == worldHeight -1) {
                     System.out.print("-");
-                } else if (x == 0 || x == worldWidth-1) {
+                } else if (x == 0 || x == worldWidth -1) {
                     System.out.print("|");
                 } else {
                     printCharacters(playerXCoordinaate, playerYCoordinaate, playerSymbol, dragonXCoordinaate, dragonYCoordinaate, dragonSymbol, orcXCoordinaate, orcYCoordinaate, orcSymbol, y, x);

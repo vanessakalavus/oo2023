@@ -1,28 +1,14 @@
 public class Main {
+/* See programm arvutab arvude keskmine  */
     public static void main(String[] args) {
+        double[] numArray = { 45.3, 67.5, 45.6, -20.34, 33.0 };
+        double sum = 0.0;
 
-        System.out.println("Hello world!");
-
-        prindiFortsykkel(5);
-
-    }
-
-    class forLoopDemo {
-        public static void main(String args[])
-        {
-            // Writing a for loop
-            // to print Hello World 5 times
-            for (int i = 1; i <= 5; i++)
-                System.out.println("Hello World");
+        for (double num: numArray) {
+            sum += num;
         }
-    }
 
-
-
-    private static void prindiFortsykkel(int kordadeArv) {
-        for (int i = 0; i < kordadeArv; i++){
-            System.out.println(i);
-    
-        }
+        double keskmine = sum / numArray.length;
+        System.out.format("Nende arvude keskmine on: %.2f", keskmine);
     }
 }
