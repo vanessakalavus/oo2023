@@ -4,6 +4,9 @@ public class Player {
     char symbol;
     Direction direction;
 
+    item item;
+
+
     // constructor
     public Player(int worldWidth, int worldHeight) {
         this.xCoordinaate = getRandomCoordinaate(worldWidth);

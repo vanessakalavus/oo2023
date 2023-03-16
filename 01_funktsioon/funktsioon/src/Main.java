@@ -15,7 +15,7 @@ public class Main {
 
     private static void paarisPaaritu(int num) {
         String evenOdd = (num % 2 == 0) ? "paaris" : "paaritu";
-        System.out.println("sisestatud arv" + num + " on " + evenOdd);
+        System.out.println("sisestatud arv " + num + " on " + evenOdd);
     }
 }
 

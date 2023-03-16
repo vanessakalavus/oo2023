@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d9b8fcc-374a-43c6-8f2b-1bb01694878f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../01_funktsioon/funktsioon/out/production/funktsioon/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_klass/kodutoo2/out/production/kodutoo2/Klient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_klass/kodutoo2/out/production/kodutoo2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/klassikomplekt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Arvuti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Kontaktandmed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Koostisosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Tellimus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/Toode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/klassikomplekt/src/isik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/kodutoo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/Kaasomanik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/Lemmikloom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/Loomainfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/Omanik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/Omanikuinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/kodutoo3/src/VeterinaariVisiit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/Failikirjutamine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/out/production/Failikirjutamine/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Failikirjutamine/valjund1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/ lugemine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/FailistLugemine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/out/production/FailistLugemine/ lugemine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/FailistLugemine/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/Libisev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/src/LibisevKeskmine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/Libisev/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/hulknurk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/out/production/hulknurk/Kolmnurk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/out/production/hulknurk/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/src/Kolmnurk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_proovikontrolltoo1/hulknurk/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game/out/production/Game/item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game/src/item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kodutoo3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kodutoo3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_funktsioon/funktsioon/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_funktsioon/funktsioon/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_funktsioon/funktsioon2/out/production/funktsioon2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../01_funktsioon/funktsioon2/out/production/funktsioon2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_funktsioon/funktsioon2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_funktsioon/funktsioon2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/out/production/Game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/out/production/Game/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/out/production/Game/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/out/production/Game/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/out/production/Game/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/out/production/Game/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/src/World.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mps1bTFjqAOatNatb49jRUhq9y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d9b8fcc-374a-43c6-8f2b-1bb01694878f" name="Changes" comment="" />
+      <created>1678475650606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678475650606</updated>
+      <workItem from="1678475651739" duration="1044000" />
+      <workItem from="1678476760837" duration="1447000" />
+      <workItem from="1678717945254" duration="5271000" />
+      <workItem from="1678732823911" duration="693000" />
+      <workItem from="1678814482891" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
