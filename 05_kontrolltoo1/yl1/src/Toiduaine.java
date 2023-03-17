@@ -1,37 +1,32 @@
 public class Toiduaine {
     private String nimetus;
-    private double valgud;
-    private double rasvad;
-    private double sysivesikud;
+    private double valkudeProtsent;
+    private double rasvadeProtsent;
+    private double sysivesikuteProtsent;
 
-    public Toiduaine(String nimetus, double valgud, double rasvad, double sysivesikud) {
-        double summa = valgud + rasvad + sysivesikud;
-        if (summa > 100) {
-            throw new IllegalArgumentException("Midagi läks valesti. Sisestatud komponentide protsent ei saa ületada 100%");
+    public Toiduaine(String nimetus, double valkudeProtsent, double rasvadeProtsent, double sysivesikuteProtsent) {
+        if (valkudeProtsent + rasvadeProtsent + sysivesikuteProtsent > 100) {
+            throw new IllegalArgumentException("Protsent kokku ei saa ületada 100!");
         }
         this.nimetus = nimetus;
-        this.valgud = valgud;
-        this.rasvad = rasvad;
-        this.sysivesikud = sysivesikud;
+        this.valkudeProtsent = valkudeProtsent;
+        this.rasvadeProtsent = rasvadeProtsent;
+        this.sysivesikuteProtsent = sysivesikuteProtsent;
     }
 
     public String getNimetus() {
         return nimetus;
     }
 
-    public double getValgud() {
-        return valgud;
+    public double getValkudeProtsent() {
+        return valkudeProtsent;
     }
 
-    public double getRasvad() {
-        return rasvad;
+    public double getRasvadeProtsent() {
+        return rasvadeProtsent;
     }
 
-    public double getSysivesikud() {
-        return sysivesikud;
-    }
-
-    public double arvutaRasvad(double kogus) {
-        return kogus * (rasvad / 100);
+    public double getSysivesikuteProtsent() {
+        return sysivesikuteProtsent;
     }
 }
