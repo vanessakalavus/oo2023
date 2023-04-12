@@ -1,4 +1,3 @@
-import java.awt.event.ItemEvent;
 import java.util.*;
 
 public class Main {
@@ -6,8 +5,8 @@ public class Main {
     // fori
     // sout
     public static void main(String[] args) {
-        Random rand = new Random();
-        Math.random();
+//        Random rand = new Random(); // uus instants
+//        Math.random(); // static
 
         System.out.println("Hello world!");
 //        String sonaline = "Sõnaline muutuja";
@@ -20,29 +19,34 @@ public class Main {
 //        long pikkNumber = 31312321312L;
 
         Scanner scanner = new Scanner(System.in);
-// scannerit luuaksealati nii , tehakse uus muutuja tüüp scanner nimega scanner
 
 
-        World world = new World(10, 5);
-
+        World world = new World(10,5);
+        //                    parem klõps -> refactor -> extract method
         Player player = new Player(world.width, world.height);
-        Dragon dragon = new Dragon(world.width,world.height);
-        Orc  orc = new Orc(world.width,world.height);
+        Dragon dragon = new Dragon(world.width, world.height);
+        Orc orc = new Orc(world.width, world.height);
+        // MITTE java.lang import
+        // saatke printMap sisse hoopis character ja if/else asemel funktsiooni sees forEach tsükkel
+        List<Character> characters = new ArrayList<>(Arrays.asList(player, dragon, orc));
 
-        item sword = new item(10,1,"Mõõk", world.width, world.height);
-        item hammer = new item(5,3,"Haamer", world.width, world.height);
-        item stick= new item(1,10,"Puupulk", world.width, world.height);
+        Item sword = new Item(10,1,"Mõõk", world.width, world.height);
+        Item hammer = new Item(5,3,"Haamer", world.width, world.height);
+        Item boot = new Item(1,10,"Saabas", world.width, world.height);
 
-        //Import! java.util.list
-        List<item> items = new ArrayList<>(Arrays.asList(sword, hammer, stick));
+        // import! java.util.List
+        // import: java.util.ArrayList
+        //                              import: java.util.Arrays
+        // List --> muudetav
+        List<Item> items = new ArrayList<>(Arrays.asList(sword, hammer, boot));
 
-        //item[] items1 = {sword, hammer, stick};
+//        Item[] items1 = {sword, hammer, boot};
+        // Array -> ei ole muudetav (read-only)
 
-
-            world.printMap(world.width, world.height,
-                    player.xCoordinaate, player.yCoordinaate, player.symbol,
-                    dragon.xCoordinaate, dragon.yCoordinaate, dragon.symbol,
-                    orc.xCoordinaate, orc.yCoordinaate, orc.symbol, items);
+        world.printMap(world.width, world.height,
+                player.xCoordinaate, player.yCoordinaate, player.symbol,
+                dragon.xCoordinaate, dragon.yCoordinaate, dragon.symbol,
+                orc.xCoordinaate, orc.yCoordinaate, orc.symbol, items);
         String input = scanner.nextLine();
 //        for (; !input.equals("end"); )
         while (!input.equals("end")) {
@@ -52,10 +56,10 @@ public class Main {
                     dragon.xCoordinaate, dragon.yCoordinaate, dragon.symbol,
                     orc.xCoordinaate, orc.yCoordinaate, orc.symbol, items);
             System.out.println();
-            for ( item i :items ) {
-                if (i.xCoordinate == player.xCoordinaate && i.yCoordinate == player.yCoordinaate){
+            for (Item i : items) {
+                if (i.xCoordinate == player.xCoordinaate && i.yCoordinate == player.yCoordinaate) {
                     player.item = i;
-                    System.out.println("Korjasid eseme:" + player.item.name);
+                    System.out.println("Korjasid eseme: " + player.item.name);
                     break;
                 }
             }
